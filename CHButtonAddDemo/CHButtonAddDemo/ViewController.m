@@ -30,7 +30,8 @@
     
     self.button.ch_alignmentType = CHUIButtonPropertyAlignmentTypeTop;
     self.button.ch_intervalImageTitle = 8;
-    self.button.ch_contentEdgeInsets = UIEdgeInsetsMake(8, 12, 8, 12);
+//    self.button.ch_contentEdgeInsets = UIEdgeInsetsMake(8, 12, 8, 12);
+    self.button.contentEdgeInsets = UIEdgeInsetsMake(8, 12, 8, 12);
     self.button.ch_shouldHighlighted = NO;
 
 }
