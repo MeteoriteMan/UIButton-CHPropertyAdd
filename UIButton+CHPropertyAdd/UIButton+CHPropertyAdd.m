@@ -75,13 +75,11 @@ static char *ch_shouldHighlightedKey = "ch_shouldHighlightedKey";
 
 - (void)ch_layoutSubviews {
     [self ch_layoutSubviews];
-NSLog(@"2");
     UIEdgeInsets ch_contentEdgeInsets = self.ch_contentEdgeInsets;
     CGFloat ch_contentEdgeInsetsTop = ch_contentEdgeInsets.top;
     CGFloat ch_contentEdgeInsetsLeft = ch_contentEdgeInsets.left;
     CGFloat ch_contentEdgeInsetsBottom = ch_contentEdgeInsets.bottom;
     CGFloat ch_contentEdgeInsetsRight = ch_contentEdgeInsets.right;
-
     switch (self.ch_alignmentType) {
         case CHUIButtonPropertyAlignmentTypeLeft:{//默认.不做处理
             self.imageEdgeInsets = UIEdgeInsetsMake(0, - self.ch_intervalImageTitle / 2, 0, self.ch_intervalImageTitle / 2);
